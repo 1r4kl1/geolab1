@@ -1,78 +1,137 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Just Smile</title>
+		<title>Smile</title>
 		<link rel="icon" href="http://pngimg.com/uploads/smiley/smiley_PNG36226.png">
 		<meta charset="utf-8">
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 		<link rel="stylesheet" href="css/fonts.css">
 		<link rel="stylesheet" type="text/css" href="css/style.css">
 	</head>
-	<header>
-		<div class="container text">
-		  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-		     		    <a><img class="nav-item"src="http://www.sclance.com/pngs/jim-carrey-png/jim_carrey_png_732919.png" width="50px;"></a>
-					    <a class="navbar-brand" href="#">მთავარი</a>
-					    <a class="navbar-brand" href="#">გალერეა</a>
-					    <a class="navbar-brand" href="#">კონტაქტი</a>
-					    <a class="navbar-brand" href="#">ჩვენ შესახებ</a>
 
-					    <form class="form-inline">
-   							<input class="form-control mr-sm-2" type="search" placeholder="ძებნა" aria-label="Search">
-					    	<button class="btn btn-outline-success my-2 my-sm-0" type="submit">ძებნა</button>
-					    </form>
-		  </nav>
-		</div>	
-	</header>
 
-	<body class="container">
+	<header class="navbar d-flex  justify-content-lg-between justify-content-md-center justify-content-sm-center justify-content-xs-center  
+			align-items-center header" id="myHeader">
+
+ 			<div class="logo text" style="font-size:  30px;"><a>Jim Carrey</a>
+			</div>
+
+			 		<!-- Navbar Area -->
+		 	<nav class="navbar-expand-lg text navbar navbar-default navbar-fixed-top justify-content-between">
+				
+                     <!-- Nav Start -->
+              
+					  <ul>
+					    <li><a class="navbar-brand" href="#">მთავარი</a></li>
+					    <li><a class="navbar-brand" href="#">გალერეა</a></li>
+					    <li><a class="navbar-brand" href="#">კონტაქტი</a></li>
+					    <li><a class="navbar-brand" href="#">ჩვენ შესახებ</a></li>
+					  </ul>
+				
+                  <!-- Search Button -->
+				<form class="form-inline">
+   					<input class="form-control mr-sm-2" type="search" placeholder="ძებნა" aria-label="Search">
+					<button class="btn btn-outline-success my-2 my-sm-0" type="submit">ძებნა</button>
+				</form>
+
+				 <!-- Register / Login -->
+                <div class="register-login-area">
+                    <a href="includes/registration.html" class="btn">რეგისტრაცია</a>
+                    <a href="#" class="btn active">შესვლა</a>
+                </div>
+	  
+			 </nav>	
+			 
+		</header>
+	
+
+	<body>
+			<!-- scoll to top -->
+
+		<button onclick="topFunction()" id="myBtn" title="Go to top"><img class="grow" style="height: 60px;" src="http://thesoapstore.net/admin/view/image/up-circular-top.png"></button>
+
+		
+
+				<div class="hero-image " style="background-image: url(https://pmcvariety.files.wordpress.com/2017/09/jim-carrey-lawsuit.jpg?w=1000&h=563&crop=1);">
+					  
+				</div>
+
+
+			<div class="d-flex justify-content-center container ">
+
+				<div class="border border-danger">
+					<img class="w-100 img1" src="img/tenor.gif">
+					<p class="bg-danger text">ხამხამით მოვუგდო უაილდერის განმანათლებელი გიკეტავენ, ხელისუფლებამ კათარზისგამოვლილი დაცვივდით რიღას ჯონსმა. შემოაბრუნებს თელეთი მეზიზღება გაეგზავნათ, ტკიპაა უშხამავდა, ჩადგა ვუჩვენებ. რომის მოვუგდო დახურა ჰღიღინებდა ადამიანებიც მოქადაგეც წანაკითხს იმალავდა გამოესყიდა გაგვაგდებენ. მიწაზე მოსისხლე მეორის დაკარგვა იმალავდა უმრავლესობისგან უცეცხლო.</p>
+
+				</div>
+				<div class=" border border-primary">
+					<img class="w-100 img1" src="img/tenor.gif">
+					<p class="bg-primary text">ხამხამით მოვუგდო უაილდერის განმანათლებელი გიკეტავენ, ხელისუფლებამ კათარზისგამოვლილი დაცვივდით რიღას ჯონსმა. შემოაბრუნებს თელეთი მეზიზღება გაეგზავნათ, ტკიპაა უშხამავდა, ჩადგა ვუჩვენებ. რომის მოვუგდო დახურა ჰღიღინებდა ადამიანებიც მოქადაგეც წანაკითხს იმალავდა გამოესყიდა გაგვაგდებენ. მიწაზე მოსისხლე მეორის დაკარგვა იმალავდა უმრავლესობისგან უცეცხლო.</p>
+				</div>
+				<div class="border border-warning">
+					<img class="w-100 img1" src="img/tenor.gif">
+					<p class="bg-warning text">ხამხამით მოვუგდო უაილდერის განმანათლებელი გიკეტავენ, ხელისუფლებამ კათარზისგამოვლილი დაცვივდით რიღას ჯონსმა. შემოაბრუნებს თელეთი მეზიზღება გაეგზავნათ, ტკიპაა უშხამავდა, ჩადგა ვუჩვენებ. რომის მოვუგდო დახურა ჰღიღინებდა ადამიანებიც მოქადაგეც წანაკითხს იმალავდა გამოესყიდა გაგვაგდებენ. მიწაზე მოსისხლე მეორის დაკარგვა იმალავდა უმრავლესობისგან უცეცხლო.</p>
+				</div>
 			
-			<div class="container row cont">
-				<div class="col-lg-3 col-md-6 col-sm-12  border border-danger">
-					<img class="w-100" src="img/tenor.gif">
-					<p class="bg-danger text">ხამხამით მოვუგდო უაილდერის განმანათლებელი გიკეტავენ, ხელისუფლებამ კათარზისგამოვლილი დაცვივდით რიღას ჯონსმა. შემოაბრუნებს თელეთი მეზიზღება გაეგზავნათ, ტკიპაა უშხამავდა, ჩადგა ვუჩვენებ. რომის მოვუგდო დახურა ჰღიღინებდა ადამიანებიც მოქადაგეც წანაკითხს იმალავდა გამოესყიდა გაგვაგდებენ. მიწაზე მოსისხლე მეორის დაკარგვა იმალავდა უმრავლესობისგან უცეცხლო.</p>
-				</div>
-				<div class="col-lg-3 col-md-6 col-sm-12 border border-primary">
-					<img class="w-100" src="img/tenor.gif">
-					<p class="bg-primary text">ხამხამით მოვუგდო უაილდერის განმანათლებელი გიკეტავენ, ხელისუფლებამ კათარზისგამოვლილი დაცვივდით რიღას ჯონსმა. შემოაბრუნებს თელეთი მეზიზღება გაეგზავნათ, ტკიპაა უშხამავდა, ჩადგა ვუჩვენებ. რომის მოვუგდო დახურა ჰღიღინებდა ადამიანებიც მოქადაგეც წანაკითხს იმალავდა გამოესყიდა გაგვაგდებენ. მიწაზე მოსისხლე მეორის დაკარგვა იმალავდა უმრავლესობისგან უცეცხლო.</p>
-				</div>
-				<div class="col-lg-3 col-md-6 col-sm-12 border border-warning">
-					<img class="w-100" src="img/tenor.gif">
-					<p class="bg-warning text">ხამხამით მოვუგდო უაილდერის განმანათლებელი გიკეტავენ, ხელისუფლებამ კათარზისგამოვლილი დაცვივდით რიღას ჯონსმა. შემოაბრუნებს თელეთი მეზიზღება გაეგზავნათ, ტკიპაა უშხამავდა, ჩადგა ვუჩვენებ. რომის მოვუგდო დახურა ჰღიღინებდა ადამიანებიც მოქადაგეც წანაკითხს იმალავდა გამოესყიდა გაგვაგდებენ. მიწაზე მოსისხლე მეორის დაკარგვა იმალავდა უმრავლესობისგან უცეცხლო.</p>
-				</div>
-				<div class="col-lg-3 col-md-6 col-sm-12 border border-info">
-					<img class="w-100" src="img/tenor.gif">
-					<p class="bg-info text">ხამხამით მოვუგდო უაილდერის განმანათლებელი გიკეტავენ, ხელისუფლებამ კათარზისგამოვლილი დაცვივდით რიღას ჯონსმა. შემოაბრუნებს თელეთი მეზიზღება გაეგზავნათ, ტკიპაა უშხამავდა, ჩადგა ვუჩვენებ. რომის მოვუგდო დახურა ჰღიღინებდა ადამიანებიც მოქადაგეც წანაკითხს იმალავდა გამოესყიდა გაგვაგდებენ. მიწაზე მოსისხლე მეორის დაკარგვა იმალავდა უმრავლესობისგან უცეცხლო.</p>
-				</div>
 	
 			</div>
 
-			<div class="container row">
-				<div class="col-lg-3 col-md-6 col-sm-12 border border-info">
-					<img class="w-100" src="img/tenor.gif">
-					<p class="bg-info text">ხამხამით მოვუგდო უაილდერის განმანათლებელი გიკეტავენ, ხელისუფლებამ კათარზისგამოვლილი დაცვივდით რიღას ჯონსმა. შემოაბრუნებს თელეთი მეზიზღება გაეგზავნათ, ტკიპაა უშხამავდა, ჩადგა ვუჩვენებ. რომის მოვუგდო დახურა ჰღიღინებდა ადამიანებიც მოქადაგეც წანაკითხს იმალავდა გამოესყიდა გაგვაგდებენ. მიწაზე მოსისხლე მეორის დაკარგვა იმალავდა უმრავლესობისგან უცეცხლო.</p>
-				</div>
-				<div class="col-lg-3 col-md-6 col-sm-12 border border-warning">
-					<img class="w-100" src="img/tenor.gif">
+			<div class="d-flex justify-content-center container">
+
+				<div class="border border-warning">
+					<img class="w-100 img1" src="img/tenor.gif">
 					<p class="bg-warning text">ხამხამით მოვუგდო უაილდერის განმანათლებელი გიკეტავენ, ხელისუფლებამ კათარზისგამოვლილი დაცვივდით რიღას ჯონსმა. შემოაბრუნებს თელეთი მეზიზღება გაეგზავნათ, ტკიპაა უშხამავდა, ჩადგა ვუჩვენებ. რომის მოვუგდო დახურა ჰღიღინებდა ადამიანებიც მოქადაგეც წანაკითხს იმალავდა გამოესყიდა გაგვაგდებენ. მიწაზე მოსისხლე მეორის დაკარგვა იმალავდა უმრავლესობისგან უცეცხლო.</p>
 				</div>
-				<div class="col-lg-3 col-md-6 col-sm-12 border border-primary">
-					<img class="w-100" src="img/tenor.gif">
+				<div class="border border-primary">
+					<img class="w-100 img1" src="img/tenor.gif">
 					<p class="bg-primary text">ხამხამით მოვუგდო უაილდერის განმანათლებელი გიკეტავენ, ხელისუფლებამ კათარზისგამოვლილი დაცვივდით რიღას ჯონსმა. შემოაბრუნებს თელეთი მეზიზღება გაეგზავნათ, ტკიპაა უშხამავდა, ჩადგა ვუჩვენებ. რომის მოვუგდო დახურა ჰღიღინებდა ადამიანებიც მოქადაგეც წანაკითხს იმალავდა გამოესყიდა გაგვაგდებენ. მიწაზე მოსისხლე მეორის დაკარგვა იმალავდა უმრავლესობისგან უცეცხლო.</p>
 				</div>
-				<div class="col-lg-3 col-md-6 col-sm-12 border border-danger">
-					<img class="w-100" src="img/tenor.gif">
+				<div class="border border-danger">
+					<img class="w-100 img1" src="img/tenor.gif">
 					<p class="bg-danger text">ხამხამით მოვუგდო უაილდერის განმანათლებელი გიკეტავენ, ხელისუფლებამ კათარზისგამოვლილი დაცვივდით რიღას ჯონსმა. შემოაბრუნებს თელეთი მეზიზღება გაეგზავნათ, ტკიპაა უშხამავდა, ჩადგა ვუჩვენებ. რომის მოვუგდო დახურა ჰღიღინებდა ადამიანებიც მოქადაგეც წანაკითხს იმალავდა გამოესყიდა გაგვაგდებენ. მიწაზე მოსისხლე მეორის დაკარგვა იმალავდა უმრავლესობისგან უცეცხლო.</p>
 				</div>
 	
 			</div>
-
 
 		<footer>
 
-			<p class="alert alert-warning alert-dismissible fade show">საკონტქტო ინფორმაცია: <a href="irakli.gigineishvili09@geolab.edu.ge">irakli.gigineishvili09@geolab.edu.ge</a></p>
+			<p class="alert alert-primary alert-dismissible fade show">საკონტქტო ინფორმაცია: <a href="irakli.gigineishvili09@geolab.edu.ge">irakli.gigineishvili09@geolab.edu.ge</a></p>
+			<div class="footer-copyright text-center py-3">© 2019 Copyright:
+      <a href="http://geolab.edu.ge/" target="_blank"> GeoLab</a>
+    </div>
 			
 
 		</footer>
+
+<script>
+window.onscroll = function() {myFunction(),scrollFunction()};
+
+var header = document.getElementById("myHeader");
+var sticky = header.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset > sticky) {
+    header.classList.add("sticky");
+  } else {
+    header.classList.remove("sticky");
+  }
+}
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    document.getElementById("myBtn").style.display = "block";
+  } else {
+    document.getElementById("myBtn").style.display = "none";
+  }
+}
+function topFunction() {
+  document.body.scrollTop = 0; 
+  document.documentElement.scrollTop = 0;
+}
+</script>
 	</body>
 </html>
+
+
+
+
